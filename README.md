@@ -3,10 +3,6 @@
 Lab overview
 ---------
 
-Critical business systems should be deployed as highly available applications, meaning that they can remain operational even when some components fail. To achieve high availability in AWS, it is recommended to run services across multiple Availability Zones.
-
-Many AWS services are inherently highly available, such as load balancers. You can configure other services for high availability, such as deploying Amazon Elastic Compute Cloud (Amazon EC2) instances in multiple Availability Zones.
-
 In this lab, you start with an application running on a single Amazon EC2 instance and then convert it to be highly available. You create an Application Load Balancer and Auto Scaling group, update the security groups, and test to ensure the application is highly available.
 
 The following image shows the final architecture:
@@ -15,15 +11,8 @@ The following image shows the final architecture:
 
 Two optional **Challenge** tasks are available. The first is to make the database highly available. The second is to make the NAT Gateway highly available.
 
-**Objectives**
 
-After completing this lab, you will be able to:
-
-*   Create an Application Load Balancer
-*   Create an Amazon EC2 Auto Scaling group
-*   Update security groups to enforce a three-tier architecture
-
-Start Lab
+Bootstrap the Lab
 ---------
 
  1. Download [this](http://bit.ly/ha-on-aws-ec2) zip file.
