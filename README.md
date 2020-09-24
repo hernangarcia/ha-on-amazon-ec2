@@ -26,8 +26,18 @@ After completing this lab, you will be able to:
 Start Lab
 ---------
 
-1. Download this CloudFormation template.
-2.  Create a CloudFormation stack using the downloaded template.
+ 1. Download [this](http://bit.ly/ha-on-aws-ec2) zip file.
+ 2. Unzip the file and look for the *.yaml* file, this is the CloudFormation template that will bootstrap the lab.
+ 3. Follow these steps to deploy the CloudFormation template:
+	 * In the AWS Management Console, on the Services menu, select **CloudFormation**
+	 * In the CloudFormation console, to the right, click the button **Create Stack**, and then click **With new resources (standard)**.
+	 * In the **Prerequisite** section, choose **Template is ready**
+	 * In the **Specify template** section, choose **Upload a template file** and choose the file you downloaded in step 1.
+	 * Click **Next**
+	 * In the **Specify stack details** page, **enter a Stack name**, for example: *ha-on-ec2-demo* and click **Next**
+	 * In the **Configure stack options** page, click **Next**
+	 * In the **Review** page, in the **Capabilities** section at the bottom, check the box with the text *"I acknowledge that AWS CloudFormation might create IAM resources with custom names"*
+	 * Click **Create stack**
 
 Task 1: Inspecting your VPC
 ---------------------------
@@ -583,5 +593,6 @@ Congratulations! You now have successfully:
 *   Created an Amazon EC2 Auto Scaling group
 *   Updated security groups to enforce a three-tier architecture
 
----
-© 2020 Amazon Web Services, Inc. and its affiliates. All rights reserved. This work may not be reproduced or redistributed, in whole or in part, without prior written permission from Amazon Web Services, Inc. Commercial copying, lending, or selling is prohibited.
+----------
+© 2020 Amazon Web Services, Inc. and its affiliates. All rights reserved. 
+This work may not be reproduced or redistributed, in whole or in part, without prior written permission from Amazon Web Services, Inc. Commercial copying, lending, or selling is prohibited.
