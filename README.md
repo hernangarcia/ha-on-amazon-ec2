@@ -582,3 +582,6 @@ Congratulations! You now have successfully:
 *   Created an Application Load Balancer
 *   Created an Amazon EC2 Auto Scaling group
 *   Updated security groups to enforce a three-tier architecture
+
+---
+© 2020 Amazon Web Services, Inc. and its affiliates. All rights reserved. This work may not be reproduced or redistributed, in whole or in part, without prior written permission from Amazon Web Services, Inc. Commercial copying, lending, or selling is prohibited.
